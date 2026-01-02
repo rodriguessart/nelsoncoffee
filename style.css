@@ -48,7 +48,7 @@
   height: 100dvh;
   width: 100%;
 
-  background-image: url(./img/cafe-fundo1.png);
+  background-image: url(cafe-fundo1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -184,3 +184,4 @@
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   opacity: 0.9;
 }
+
