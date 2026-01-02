@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-nav {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding-left: 60px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+
+  & ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    list-style: none;
+    font-size: 13px;
+    padding-top: 12px;
+    align-items: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  & h2 {
+    margin-left: 140px;
+    margin-right: 280px;
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 0.7;
+    font-weight: 500;
+  }
+
+  & li:hover {
+    color: #c49b63;
+    transition: 0.6s;
+  }
+}
+
+.hero {
+  position: relative;
+  height: 100dvh;
+  width: 100%;
+
+  background-image: url(./img/cafe-fundo1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.btn1 {
+  background-color: #c49b63;
+  color: #000;
+  border: 1px solid #c49b63;
+  font-family: "Poppins", sans-serif;
+  width: 140px;
+  height: 60px;
+  line-height: 1;
+  font-size: 14px;
+  margin-top: 50px;
+  cursor: pointer;
+  text-transform: none;
+  letter-spacing: 2px;
+}
+
+.btn2 {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 15px;
+  font-family: "Poppins", sans-serif;
+  width: 140px;
+  height: 60px;
+  line-height: 1;
+  font-size: 14px;
+  margin-top: 50px;
+  cursor: pointer;
+  text-transform: none;
+  letter-spacing: 2px;
+}
+
+.btn1:hover {
+  border: 1px solid #c49b63;
+  background: transparent;
+  color: #c49b63;
+  transition: 0.6s;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn2:hover {
+  border: 1px solid #946f3b;
+  background-color: #c49b63;
+  color: #000;
+  transition: 0.6s;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  font-size: 40px;
+  margin-left: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  flex-direction: column;
+
+  & h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.4;
+  }
+
+  & h3 {
+    font-family: "Great Vibes", cursive;
+    font-size: 33px;
+    color: #daab6b;
+    text-align: center;
+    font-weight: 300;
+    text-transform: none;
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
+
+  .phc {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-transform: none;
+    font-style: italic;
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+}
+
+.smcoffe {
+  letter-spacing: 6px;
+  font-size: 12px;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.linha {
+  margin-top: 30px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  opacity: 0.9;
+}
