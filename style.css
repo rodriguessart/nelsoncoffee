@@ -183,6 +183,7 @@
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   opacity: 0.9;
+}
 
   .contact {
   width: 100%;
@@ -221,6 +222,7 @@
   display: flex;
   gap: 5px;
 }
+
 
 
 
